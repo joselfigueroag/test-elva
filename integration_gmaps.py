@@ -2,7 +2,7 @@ import googlemaps
 
 gmaps = googlemaps.Client(key="") #Add token
 
-address = "4100 SE Stark Street, Portland, OR 97214"
+address = "1300 SE Stark Street, Portland, OR 97214"
 
 def recursive_function(address, neighborhood=None):
     lat, lng = set_lat_and_lng(address)
